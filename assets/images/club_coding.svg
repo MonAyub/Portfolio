@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a13" />
+      <stop offset="100%" stop-color="#131a2e" />
+    </linearGradient>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00d26a" />
+      <stop offset="100%" stop-color="#00b4d8" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#grad1)" />
+  <circle cx="200" cy="150" r="120" fill="none" stroke="rgba(0, 210, 106, 0.05)" stroke-width="2" />
+  <circle cx="200" cy="150" r="90" fill="none" stroke="rgba(0, 180, 216, 0.05)" stroke-width="2" />
+  
+  <!-- Terminal Frame -->
+  <rect x="80" y="60" width="240" height="180" rx="8" fill="#0d1220" stroke="#1f2937" stroke-width="2" />
+  <rect x="80" y="60" width="240" height="25" rx="8" fill="#111827" />
+  <circle cx="95" cy="72" r="4" fill="#ef4444" />
+  <circle cx="107" cy="72" r="4" fill="#eab308" />
+  <circle cx="119" cy="72" r="4" fill="#22c55e" />
+  
+  <!-- Code Lines -->
+  <text x="95" y="110" font-family="monospace" font-size="12" fill="#00d26a">&gt; npm run hackathon</text>
+  <text x="95" y="130" font-family="monospace" font-size="11" fill="#e2e8f0">Initializing scoreboard...</text>
+  <text x="95" y="150" font-family="monospace" font-size="11" fill="#00b4d8">const</text>
+  <text x="135" y="150" font-family="monospace" font-size="11" fill="#e2e8f0">teams = ["MBSTU_ICT", "DU_CS"];</text>
+  <text x="95" y="170" font-family="monospace" font-size="11" fill="#00b4d8">teams.forEach</text>
+  <text x="175" y="170" font-family="monospace" font-size="11" fill="#e2e8f0">((t) => {</text>
+  <text x="110" y="190" font-family="monospace" font-size="11" fill="#eab308">solveProblems(t);</text>
+  <text x="95" y="210" font-family="monospace" font-size="11" fill="#e2e8f0">});</text>
+  
+  <!-- Glowing cursor -->
+  <rect x="195" y="200" width="6" height="11" fill="#00d26a" opacity="0.8" />
+</svg>
