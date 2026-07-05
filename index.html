@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <!-- Meta SEO Tags -->
+    <meta name="description" content="Portfolio of Monirojjaman Ayoive - B.Sc. (Engg) ICT student and Passionate Web Developer, Competitive Programmer, and Tech Enthusiast.">
+    <meta name="keywords" content="Monirojjaman Ayoive, Ayoive, MBSTU, ICT, Portfolio, Web Developer, Bangladesh Programmer">
+    <meta name="author" content="Monirojjaman Ayoive">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Oswald%3A400%2C600%2C700%7COpen%20Sans%3A400%2C600%2C700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- App Main Container -->
+    <div class="app-container">
+
+        <!-- Mobile Header Bar -->
+        <header class="mobile-header" id="mobileHeader">
+            <div class="logo-container" style="margin-bottom: 0;">
+                <div class="logo-icon">Mon</div>
+                <span class="logo-text">Ayoive</span>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </header>
+
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar" id="sidebar">
+            <div class="logo-container">
+                <div class="logo-icon">MA</div>
+                <span class="logo-text">Mon.Ayoive</span>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li class="nav-item active" data-tab="home">
+                        <a href="#home"><i class="fas fa-house"></i>Home</a>
+                    </li>
+                    <li class="nav-item" data-tab="about">
+                        <a href="#about"><i class="fas fa-user"></i>About Me</a>
+                    </li>
+                    <li class="nav-item" data-tab="skills-projects">
+                        <a href="#skills-projects"><i class="fas fa-code-branch"></i>Skills & Projects</a>
+                    </li>
+                    <li class="nav-item" data-tab="extra-curricular">
+                        <a href="#extra-curricular"><i class="fas fa-medal"></i>Extra Curricular</a>
+                    </li>
+                    <li class="nav-item" data-tab="gallery">
+                        <a href="#gallery"><i class="fas fa-images"></i>Gallery</a>
+                    </li>
+                    <li class="nav-item" data-tab="social">
+                        <a href="#social"><i class="fas fa-share-nodes"></i>Social Media</a>
+                    </li>
+                    <li class="nav-item" data-tab="problem-solving">
+                        <a href="#problem-solving"><i class="fas fa-brain"></i>Problem Solving Journey</a>
+                    </li>
+                    <li class="nav-item" data-tab="contact">
+                        <a href="#contact"><i class="fas fa-envelope"></i>Contract</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="sidebar-footer">
+                <p>&copy; 2026 M. Ayoive</p>
+                <p style="font-size: 0.65rem; margin-top: 4px; color: var(--text-muted);">Built with Premium Glassmorphism</p>
+            </div>
+        </aside>
+
+        <!-- Main Content Panel -->
+        <main class="main-content">
+
+            <!-- Banner at top -->
+            <div class="top-banner" id="justiceBanner">
+                <div class="banner-content">
+                    <i class="fas fa-bullhorn banner-icon"></i>
+                    <span><strong>Banner Statement:</strong> Justice For hadi</span>
+                </div>
+                <button class="banner-close" id="closeBannerBtn" aria-label="Close Banner">
+                    <i class="fas fa-xmark"></i>
+                </button>
+            </div>
+
+            <!-- HOME SECTION -->
+            <section class="content-section visible" id="home">
+                <div class="hero-container">
+                    <div class="hero-info">
+                        <span class="hero-welcome">Hi, Welcome to my profile</span>
+                        <h1 class="hero-name">It's <span>Monirojjaman Ayoive</span></h1>
+                        <p class="hero-meta">B. Sc. (Engg) in ICT from MBSTU (3rd Year)</p>
+                        
+                        <div class="hero-typing">
+                            <span>Passion:</span>
+                            <span class="typed-text">Web Developer</span>
+                            <span class="cursor">&nbsp;</span>
+                        </div>
+                        
+                        <p class="hero-description">
+                            I am a highly motivated Information and Communication Technology undergraduate student who enjoys solving complex challenges, designing clean digital platforms, and exploring new domains in computer engineering.
+                        </p>
+                        
+                        <div class="hero-actions">
+                            <a href="Monirojjaman__Ayoive_CV.pdf" class="btn btn-primary" download>
+                                <i class="fas fa-cloud-arrow-down btn-icon"></i>My Resume
+                            </a>
+                            <a href="#" class="btn btn-secondary" data-goto="contact">
+                                <i class="fas fa-paper-plane btn-icon"></i>Get In Touch
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-image-wrapper">
+                        <div class="hero-image-border">
+                            <div class="hero-image-content">
+                                <img src="assets/images/profile.jpg" alt="Monirojjaman Ayoive Profile Picture">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </section>
+
+            <!-- ABOUT ME SECTION -->
+            <section class="content-section" id="about">
+                <div class="section-header">
+                    <span class="section-subtitle"><h3>Biography</h3></span>
+                    <h2 class="section-title">About Me</h2>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-text-card">
+                        <p class="about-intro-lead">
+                            Dynamic and motivated student eager to contribute to innovative software engineering.
+                        </p>
+                        <p class="about-paragraph">
+                            Enthusiastic ICT student with a strong interest in problem-solving, mathematics, and software development. Skilled in C++, Java, and modern web technologies, with a growing passion for building real-world applications and improving programming skills through continuous learning. My experience in competitive programming has strengthened my logical thinking, analytical ability, and approach to solving complex problems efficiently.
+                        </p>
+                        <p class="about-paragraph">
+                            Currently pursuing a bachelor’s degree at Mawlana Bhashani Science and Technology University, I am focused on improving my expertise in algorithms, web development, and software engineering. I enjoy exploring new technologies and creating projects that combine creativity with technical knowledge.
+                        </p>
+                        <p class="about-paragraph">
+                            My future goals include achieving a strong rank in Codeforces, performing well in programming contests like ICPC and NCPC, and contributing to innovative software and AI-related projects. I aim to apply my technical knowledge, dedication, and problem-solving abilities to impactful software engineering roles while continuously growing as a developer.
+                        </p>
+                    </div>
+
+                    <div class="stats-grid">
+                        <div class="stat-box">
+                            <span class="stat-value">  3.60 <br>  </span>
+                            <span class="stat-label">📊 CGPA</span>
+                        </div>
+                        <div class="stat-box">
+                            <span class="stat-value">3rd Year 2nd Semester</span>
+                            <span class="stat-label">🎯 Current Status</span>
+                        </div>
+                        <div class="stat-box" style="grid-column: span 2; text-align: left; align-items: flex-start;">
+                            <span class="stat-value" style="font-size: 1.4rem; color: var(--color-primary);"><i class="fas fa-book-open"></i> Key Courses:</span>
+                            <p style="font-size: 0.9rem; color: var(--text-secondary); margin-top: 8px; font-family: var(--font-mono);">
+                                Data Structures & Algorithms, OOP, Database Management, Operating System, Web Programming.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education Timeline -->
+                <div class="education-section">
+                    <h3 class="skills-subsection-title" style="margin-top: 20px;"><i class="fas fa-graduation-cap"></i> Education Timeline</h3>
+                    <div class="timeline">
+                        <!-- Inst 1 -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-header">
+                                <h4 class="timeline-title">B.Sc. (Engg) in Information and Communication Technology</h4>
+                                <span class="timeline-date">2023 - Present</span>
+                            </div>
+                            <p class="timeline-institution">Mawlana Bhashani Science and Technology University, Tangail</p>
+                            <ul class="timeline-details">
+                                <li><i class="fas fa-caret-right"></i> Major: Software Engineering, Data Networks</li>
+                                <li><i class="fas fa-caret-right"></i> Current Status: 3rd Year, 2nd Semester</li>
+                                <li><i class="fas fa-caret-right"></i> CGPA: 3.60 / 4.00</li>
+                            </ul>
+                        </div>
+                        <!-- Inst 2 -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-header">
+                                <h4 class="timeline-title">Higher Secondary School Certificate (HSC)</h4>
+                                <span class="timeline-date">2020 - 2022</span>
+                            </div>
+                            <p class="timeline-institution">Major General Mahmudul Hasan Adarsha College, Tangail</p>
+                            <ul class="timeline-details">
+                                <li><i class="fas fa-caret-right"></i> Major: Science Group</li>
+                                <li><i class="fas fa-caret-right"></i> GPA: 5.00 / 5.00</li>
+                                <li><i class="fas fa-caret-right"></i> Status: Graduated with Distinction</li>
+                            </ul>
+                        </div>
+                        <!-- Inst 3 -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-header">
+                                <h4 class="timeline-title">Secondary School Certificate (SSC)</h4>
+                                <span class="timeline-date">2014 - 2020</span>
+                            </div>
+                            <p class="timeline-institution">Poradia Adarsha High School, Belabo, Narsingdi</p>
+                            <ul class="timeline-details">
+                                <li><i class="fas fa-caret-right"></i> Major: Science Group</li>
+                                <li><i class="fas fa-caret-right"></i> GPA: 4.94 / 5.00</li>
+                                <li><i class="fas fa-caret-right"></i> Status: Graduated</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SKILLS & PROJECTS SECTION -->
+            <section class="content-section" id="skills-projects">
+                <div class="section-header">
+                    <span class="section-subtitle">Proficiencies & Creations</span>
+                    <h2 class="section-title">Skills & Projects</h2>
+                </div>
+
+                <!-- Skills Block -->
+                <div class="skills-block">
+                    <!-- Subsection: Languages -->
+                    <div>
+                        <h3 class="skills-subsection-title">Programming Languages</h3>
+                        <div class="skills-grid">
+                            <div class="skill-card">
+                                <i class="fab fa-cuttlefish skill-icon" style="color: #659AD2;"></i>
+                                <span class="skill-name">C Language</span>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-icon" style="color: #00599C; font-weight: bold; font-family: var(--font-heading);">C++</div>
+                                <span class="skill-name">C++ Programming</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fab fa-java skill-icon" style="color: #EA2D42;"></i>
+                                <span class="skill-name">Java</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fab fa-python skill-icon" style="color: #3776AB;"></i>
+                                <span class="skill-name">Python </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Subsection: Web/App Dev -->
+                    <div>
+                        <h3 class="skills-subsection-title">Web & Mobile App Development</h3>
+                        <div class="skills-grid">
+                            <div class="skill-card">
+                                <i class="fab fa-html5 skill-icon" style="color: #E34F26;"></i>
+                                <span class="skill-name">HTML Markup</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fab fa-css3-alt skill-icon" style="color: #1572B6;"></i>
+                                <span class="skill-name">CSS Styling</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fab fa-bootstrap skill-icon" style="color: #7952B3;"></i>
+                                <span class="skill-name">Django Web Framework</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fab fa-android skill-icon" style="color: #3DDC84;"></i>
+                                <span class="skill-name">Android Studio (Java)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Subsection: Others -->
+                    <div>
+                        <h3 class="skills-subsection-title">Other Skillsets</h3>
+                        <div class="skills-grid">
+                            <div class="skill-card">
+                                <i class="fas fa-language skill-icon" style="color: #38bdf8;"></i>
+                                <span class="skill-name">English (ESL)</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fas fa-robot skill-icon" style="color: #a855f7;"></i>
+                                <span class="skill-name">Basic Robotics</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fas fa-file-excel skill-icon" style="color: #107c41;"></i>
+                                <span class="skill-name">Microsoft Office Suite</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projects Block -->
+                <div style="margin-top: 20px;">
+                    <h3 class="skills-subsection-title" style="margin-bottom: 24px;"><i class="fas fa-diagram-project"></i> Selected Projects</h3>
+                    <div class="projects-grid">
+                        <!-- Project 1 -->
+                        <div class="glass-card project-card">
+                            <div class="project-icon-wrapper">
+                                <i class="fas fa-clipboard-list"></i>
+                            </div>
+                             <p> Consule Base </P>
+                            <h4 class="project-title">To Do List APP </h4>
+                            <p class="project-description">
+                                A lightweight, console-based task manager built with C++. It allows users to add new tasks, view the current to-do list and delete completed or unwanted items. Designed to be fast and straightforward for daily personal scheduling.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">C++</span>
+
+                            </div>
+                            <a href="https://github.com/MonAyub/ToDoList" class="project-link" target="">
+    View In Github<i class="fas fa-arrow-right"></i>
+</a>
+                        </div>
+
+                        <!-- Project 2 -->
+                        <div class="glass-card project-card">
+                            <div class="project-icon-wrapper">
+                                <i class="fas fa-clipboard-question"></i>
+                            </div>
+                            <h4 class="project-title">Online Quiz System</h4>
+                            <p class="project-description">
+                             An interactive online quiz system developed using HTML, CSS, and JavaScript.
+                              It enables students to complete multiple-choice quizzes, automatically evaluates responses, calculates scores instantly 
+                              and provides immediate performance feedback through a clean and responsive user interface.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                           <a href="https://github.com/MonAyub/online-Quiz" class="project-link" target="">
+    View In Github<i class="fas fa-arrow-right"></i>
+</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- EXTRA CURRICULAR SECTION -->
+            <section class="content-section" id="extra-curricular">
+                <div class="section-header">
+                    <span class="section-subtitle">Leadership & Events</span>
+                    <h2 class="section-title">Extra Curricular</h2>
+                </div>
+
+                <div class="glass-card extra-curricular-container">
+                    <div class="ec-coming-soon-glow">
+                        <i class="fas fa-hourglass-half"></i>
+                    </div>
+                    <h3 class="ec-title">Upcoming Updates</h3>
+                    <p class="ec-text">
+                        "Details of departmental seminars, academic workshop participations, cricket leagues, and local events organizing roles will be updated shortly."
+                    </p>
+                    <p class="ec-text" style="font-family: var(--font-mono); color: var(--color-primary); font-size: 0.95rem;">
+                        Insha'Allah
+                    </p>
+                </div>
+            </section>
+
+            <!-- GALLERY SECTION -->
+            <section class="content-section" id="gallery">
+                <div class="section-header">
+                    <span class="section-subtitle">Moments & Trips</span>
+                    <h2 class="section-title">Gallery</h2>
+                </div>
+
+                <div class="gallery-grid">
+                    <!-- Photo 1 -->
+                    <div class="gallery-card" data-title="Bandarban in 2k24">
+                        <img src="assets/images/gallery_1.jpg" alt="Bandarban landscape trip" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <span class="gallery-card-tag">Travel</span>
+                            <h4 class="gallery-card-title">Bandarban</h4>
+                        </div>
+                    </div>
+                    <!-- Photo 2 -->
+                    <div class="gallery-card" data-title="Himchori in 2k26">
+                        <img src="assets/images/gallery_2.jpg" alt="Himchori hills and beach trip" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <span class="gallery-card-tag">Travel</span>
+                            <h4 class="gallery-card-title">Himchori</h4>
+                        </div>
+                    </div>
+                    <!-- Photo 3 -->
+                    <div class="gallery-card" data-title="Mirinja Valley">
+                        <img src="assets/images/gallery_3.jpg" alt="Mirinja Valley sunrise trip" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <span class="gallery-card-tag">Travel</span>
+                            <h4 class="gallery-card-title">Mirinja Valley</h4>
+                        </div>
+                    </div>
+                     <!-- Photo 4 -->
+                    <div class="gallery-card" data-title="Bandarban in 2k24">
+                        <img src="assets/images/gallery_4.jpg" alt="Bandarban landscape trip" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <span class="gallery-card-tag">Travel</span>
+                            <h4 class="gallery-card-title">Chandranath Hill</h4>
+                        </div>
+                    </div>
+                     <!-- Photo 5 -->
+                    <div class="gallery-card" data-title="Bandarban in 2k24">
+                        <img src="assets/images/gallery_5.jpg" alt="Bandarban landscape trip" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <span class="gallery-card-tag">Travel</span>
+                            <h4 class="gallery-card-title">Guliakhali Sea Beach</h4>
+                        </div>
+                    </div>
+                     <!-- Photo 6 -->
+                    <div class="gallery-card" data-title="Bandarban in 2k24">
+                        <img src="assets/images/gallery_6.jpg" alt="Bandarban landscape trip" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <span class="gallery-card-tag">Travel</span>
+                            <h4 class="gallery-card-title">Jaflong</h4>
+                        </div>
+                    </div>
+                    <!-- Photo 4: SVG fallback card -->
+                    <div class="gallery-card glass-card gallery-card-svg" data-title="ICT Intra Dept Cricket Tournament">
+                        <div class="gallery-svg-icon">
+                        
+                        </div>
+                        <h4 class="gallery-svg-title">Alumni Meet 2k24</h4>
+                       
+                         <img src="assets/images/gallery_7.jpg" alt="Bandarban landscape trip" class="gallery-image">
+                        <!-- Hidden SVG matching for lightbox rendering fallback -->
+                        <svg style="display:none;" viewBox="0 0 100 100" width="100%" height="100%">
+                            <circle cx="50" cy="50" r="45" fill="none" stroke="#00d26a" stroke-width="2"/>
+                            <path d="M30,70 L70,30" stroke="#00b4d8" stroke-width="6" stroke-linecap="round"/>
+                            <circle cx="75" cy="25" r="8" fill="#f59e0b"/>
+                        </svg>
+                    </div>
+                    <!-- Photo 5: SVG fallback card -->
+                    <div class="gallery-card glass-card gallery-card-svg" data-title="Ict alumni meet 2k24">
+                        <div class="gallery-svg-icon">
+                           
+                        </div>
+                        <h4 class="gallery-svg-title">Cricket Tournament (Good Committee)</h4>
+                        <img src="assets/images/gallery_9.jpg" alt="Bandarban landscape trip" class="gallery-image">
+                      
+                        <!-- Hidden SVG matching for lightbox rendering fallback -->
+                        <svg style="display:none;" viewBox="0 0 100 100" width="100%" height="100%">
+                            <circle cx="50" cy="50" r="45" fill="none" stroke="#00b4d8" stroke-width="2"/>
+                            <circle cx="35" cy="45" r="10" fill="#00d26a"/>
+                            <circle cx="65" cy="45" r="10" fill="#00d26a"/>
+                            <path d="M30,75 Q50,60 70,75" stroke="#f59e0b" stroke-width="4" fill="none" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <div class="gallery-card glass-card gallery-card-svg" data-title="Ict alumni meet 2k24">
+                        <div class="gallery-svg-icon">
+                           
+                        </div>
+                        <h4 class="gallery-svg-title">Football Tournament (Good Committee)</h4>
+                        <img src="assets/images/gallery_8.jpg" alt="Bandarban landscape trip" class="gallery-image">
+                      
+                        <!-- Hidden SVG matching for lightbox rendering fallback -->
+                        <svg style="display:none;" viewBox="0 0 100 100" width="100%" height="100%">
+                            <circle cx="50" cy="50" r="45" fill="none" stroke="#00b4d8" stroke-width="2"/>
+                            <circle cx="35" cy="45" r="10" fill="#00d26a"/>
+                            <circle cx="65" cy="45" r="10" fill="#00d26a"/>
+                            <path d="M30,75 Q50,60 70,75" stroke="#f59e0b" stroke-width="4" fill="none" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                </div>
+            </section>
+
+  <section class="content-section" id="social">
+                <div class="section-header">
+                    <span class="section-subtitle">Connections</span>
+                    <h2 class="section-title">Social Media</h2>
+                </div>
+
+                <div class="social-grid">
+                    <!-- FB -->
+                    <a href="https://www.facebook.com/mon.ayub204" target="_blank" class="glass-card social-card brand-facebook">
+                        <div class="social-icon-wrapper">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                        <h4 class="social-name">Facebook</h4>
+                        <span class="social-status">Connect Profile</span>
+                    </a>
+                    <!-- WhatsApp -->
+                    <a href="https://call.whatsapp.com/voice/AWV6C8P29ojaxKxr71TGsD" target="_blank" class="glass-card social-card brand-whatsapp">
+                        <div class="social-icon-wrapper">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <h4 class="social-name">WhatsApp</h4>
+                        <span class="social-status">Send Message</span>
+                    </a>
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/in/monirojjaman-ayoive-680993396" target="_blank" class="glass-card social-card brand-linkedin">
+                        <div class="social-icon-wrapper">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                        <h4 class="social-name">LinkedIn</h4>
+                        <span class="social-status">Professional Network</span>
+                    </a>
+                    <!-- Codeforces -->
+                   
+                </div>
+            </section>          
+             <!-- problem solving -->
+           
+         <section class="content-section" id="problem-solving">
+                <div class="section-header">
+                    <span class="section-subtitle">Journey</span>
+                    <h2 class="section-title">Problem Solving</h2>
+                </div>
+
+                <div class="social-grid">
+                    <!-- Codeforces -->
+                     <a href="https://codeforces.com/profile/mon.ayub204" target="_blank" class="glass-card social-card brand-codeforces">
+                        <div class="social-icon-wrapper">
+                            <div style="font-weight:bold; font-size:1.4rem;">CF</div>
+                        </div>
+                        <h4 class="social-name">Codeforces</h4>
+                        <span class="social-status">Competitive Coding</span>
+                    </a>
+                    <!-- UVA -->
+                    <a href="https://uhunt.onlinejudge.org/id/1617389" target="_blank" class="glass-card social-card brand-whatsapp">
+                        <div class="social-icon-wrapper">
+                             <div style="font-weight:bold; font-size:1.4rem;">UVA</div>
+                        </div>
+                        <h4 class="social-name">UVA</h4>
+                        <span class="social-status">Online Judge</span>
+                    </a>
+                     <!--Beecrowd -->
+                    <a href="https://www.beecrowd.com.br/judge/en/profile/879506" target="_blank" class="glass-card social-card brand-whatsapp">
+                        <div class="social-icon-wrapper">
+                             <div style="font-weight:bold; font-size:1.4rem;">BC</div>
+                        </div>
+                        <h4 class="social-name">Beecrowd</h4>
+                        <span class="social-status">Online Judge</span>
+                    </a>
+                    
+                    <!-- Lightoj -->
+                    <a href="https://lightoj.com/user/ayoive_13" target="_blank" class="glass-card social-card brand-codeforces">
+                        <div class="social-icon-wrapper">
+                            <div style="font-weight:bold; font-size:1.4rem;">LO</div>
+                        </div>
+                        <h4 class="social-name">Lightoj</h4>
+                        <span class="social-status">Online judge</span>
+                    </a>
+                </div>
+            </section>
+
+            <!-- CONTACT SECTION -->
+            <section class="content-section" id="contact">
+                <div class="section-header">
+                    <span class="section-subtitle">Get In Touch</span>
+                    <h2 class="section-title">Contract</h2>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info-list">
+                        <!-- Phone -->
+                        <div class="glass-card contact-info-card">
+                            <div class="contact-card-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-card-details">
+                                <span>Phone Number</span>
+                                <h5>+8801890234204</h5>
+                            </div>
+                            <button class="copy-btn" data-copy="+8801890234204" title="Copy Phone Number" aria-label="Copy Phone">
+                                <i class="far fa-copy"></i>
+                            </button>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="glass-card contact-info-card">
+                            <div class="contact-card-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-card-details">
+                                <span>Email Address</span>
+                                <h5>monirojjamanayoive204@gmail.com</h5>
+                            </div>
+                            <button class="copy-btn" data-copy="monirojjamanayoive204@gmail.com" title="Copy Email Address" aria-label="Copy Email">
+                                <i class="far fa-copy"></i>
+                            </button>
+                        </div>
+
+                        <!-- Quote block -->
+                        <p class="contact-quote">
+                            “Feel free to reach out to me on any platform. I’d love to connect with you.”
+                        </p>
+                    </div>
+
+                    <!-- Contact Message Form -->
+                    <div class="glass-card contact-form-wrapper">
+                        <h3 class="skills-subsection-title" style="margin-bottom: 12px; font-size: 1.3rem;"><i class="fas fa-paper-plane"></i> Quick Message</h3>
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" class="form-control" placeholder="e.g. John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" class="form-control" placeholder="e.g. john@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" class="form-control" placeholder="Write your message here..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary" style="margin-top: 10px; width: 100%; justify-content: center;">
+                                <i class="fas fa-paper-plane btn-icon"></i>Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <!-- Quick Section Nav Cards -->
+                <div class="quick-links-section">
+                    <div class="glass-card quick-link-card" data-goto="about">
+                        <div class="quick-link-icon">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <div class="quick-link-info">
+                            <h4>More About Me</h4>
+                            <p>Education, CGPA, details</p>
+                        </div>
+                    </div>
+                    <div class="glass-card quick-link-card" data-goto="skills-projects">
+                        <div class="quick-link-icon">
+                            <i class="fas fa-folder-open"></i>
+                        </div>
+                        <div class="quick-link-info">
+                            <h4>My Projects</h4>
+                            <p>Software works & codebase</p>
+                        </div>
+                    </div>
+                    <div class="glass-card quick-link-card" data-goto="gallery">
+                        <div class="quick-link-icon">
+                            <i class="fas fa-photo-film"></i>
+                        </div>
+                        <div class="quick-link-info">
+                            <h4>See Achievements</h4>
+                            <p>Travels & Dept Tournaments</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- Gallery Lightbox Viewer overlay -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close Lightbox"><i class="fas fa-xmark"></i></button>
+        <div class="lightbox-nav lightbox-prev" id="lightboxPrev"><i class="fas fa-chevron-left"></i></div>
+        <div class="lightbox-nav lightbox-next" id="lightboxNext"><i class="fas fa-chevron-right"></i></div>
+        <div class="lightbox-content">
+            <img src="" alt="" class="lightbox-img" id="lightboxImg">
+            <h4 class="lightbox-title" id="lightboxTitle">Image Details</h4>
+        </div>
+    </div>
+
+    <!-- Clipboard Toast Notification popup -->
+    <div class="toast" id="toast">
+        <i class="fas fa-circle-check toast-icon"></i>
+        <span class="toast-text" id="toastText">Text copied to clipboard</span>
+    </div>
+    
+
+    <!-- Script File Link -->
+    <script type="module" src="app.js"></script>
+</body>
+</html>
