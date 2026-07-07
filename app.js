@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Animated Typing Effect for Passion & Hobbies
     const typedTextSpan = document.querySelector(".typed-text");
     const phrases = [
-        "Web Developer",
+        " ",
         "Problem Solver",
         "ICT Engineer",
         "Tech Learner",
